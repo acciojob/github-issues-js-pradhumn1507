@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+.img1 {
+  content: url("https://source.unsplash.com/random/200x300?sig=1");
+}
+
+.img2 {
+  content: url("https://source.unsplash.com/random/200x300?sig=2");
+}
+
+.img3 {
+  content: url("https://source.unsplash.com/random/200x300?sig=3");
+}
+.img4 {
+  content: url("https://source.unsplash.com/random/200x300");
+}
+.img5 {
+  content: url("https://source.unsplash.com/random/200x300?sig=4");
+}
+
+img {
+  width: 10%;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.selected {
+  border: 10px solid rgb(0, 195, 255);
+}
+h3 {
+  margin-top: 60px;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}
